@@ -55,7 +55,7 @@ Follow these steps to run the project on your local machine:
 ### 🌐 View Live
 - 🔗 Live Demo (Add your deployed app link here)
 
--👨‍💻 Credits
--Developed by: [Your Name]
--Tech Stack: Python, Streamlit, TensorFlow, Scikit-Learn
--Dataset: [Fashion Product Dataset]
+### 👨‍💻 Credits
+- Developed by: [Your Name]
+- Tech Stack: Python, Streamlit, TensorFlow, Scikit-Learn
+- Dataset: [Fashion Product Dataset]
