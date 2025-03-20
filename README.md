@@ -12,10 +12,8 @@ A web-based AI-powered recommendation system that suggests fashion products base
 ## 📸 Screenshots  
 
 ### Upload Image  
-![Upload Image](pic1.png)  
-
-### Recommendations  
-![Recommendations](pic2.png)  
+(pic1.png)
+(pic2.png)  
 
 _(Make sure to replace these filenames with actual screenshot paths from your project)_
 
@@ -24,21 +22,27 @@ _(Make sure to replace these filenames with actual screenshot paths from your pr
 Follow these steps to run the project on your local machine:  
 
 ### 1️⃣ Clone the Repository  
-
-git clone https://github.com/SachinSingh008/Image_Recommendation_System.git
+```bash
+git clone https://github.com/your-username/fashion-recommendation.git
 cd fashion-recommendation
-### 2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 Ensure you have Python installed (3.8+ recommended). Then, install required libraries:
 
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-###3️⃣ Run the Application
-
+3️⃣ Run the Application
+bash
+Copy
+Edit
 streamlit run app.py
 The app will open in your web browser at http://localhost:8501.
 
-###📂 Project Structure
-
+📂 Project Structure
+bash
+Copy
+Edit
 📂 fashion-recommendation
  ┣ 📂 images              # Fashion images dataset & screenshots
  ┣ 📂 upload              # Directory for uploaded images
@@ -48,9 +52,7 @@ The app will open in your web browser at http://localhost:8501.
  ┣ 📜 Images_features.pkl # Extracted image features
  ┣ 📜 styles.csv          # Metadata for fashion items
  ┣ 📜 README.md           # Project documentation (this file)
-
-
- 🎯 How It Works
+🎯 How It Works
 Feature Extraction: The app uses ResNet50 to extract visual features from uploaded images.
 Similarity Matching: It finds the closest matching products using Nearest Neighbors (Euclidean distance).
 Interactive UI: Users can select a recommended product to get continuous recommendations.
