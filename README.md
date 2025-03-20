@@ -11,10 +11,8 @@ A web-based AI-powered recommendation system that suggests fashion products base
 
 ## 📸 Screenshots  
 
-### Upload Image  
 ![Upload Image](pic1.png)  
 
-### Recommendations  
 ![Recommendations](pic2.png)  
 
 ## 🛠️ Installation & Setup  
