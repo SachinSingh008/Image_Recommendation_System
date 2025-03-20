@@ -52,10 +52,10 @@ Follow these steps to run the project on your local machine:
 - Feature Extraction: The app uses ResNet50 to extract visual features from uploaded images.
 - Similarity Matching: It finds the closest matching products using Nearest Neighbors (Euclidean distance).
 - Interactive UI: Users can select a recommended product to get continuous recommendations.
-- 🌐 View Live
+### 🌐 View Live
 - 🔗 Live Demo (Add your deployed app link here)
 
-- 👨‍💻 Credits
-- Developed by: [Your Name]
-- Tech Stack: Python, Streamlit, TensorFlow, Scikit-Learn
-- Dataset: [Fashion Product Dataset]
+-👨‍💻 Credits
+-Developed by: [Your Name]
+-Tech Stack: Python, Streamlit, TensorFlow, Scikit-Learn
+-Dataset: [Fashion Product Dataset]
