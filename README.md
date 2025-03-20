@@ -48,7 +48,7 @@ Follow these steps to run the project on your local machine:
 -  ┣ 📜 README.md           # Project documentation (this file)
 
 
--  🎯 How It Works
+### 🎯 How It Works
 - Feature Extraction: The app uses ResNet50 to extract visual features from uploaded images.
 - Similarity Matching: It finds the closest matching products using Nearest Neighbors (Euclidean distance).
 - Interactive UI: Users can select a recommended product to get continuous recommendations.
