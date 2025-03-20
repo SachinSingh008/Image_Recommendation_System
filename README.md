@@ -21,7 +21,7 @@ _(Make sure to replace these filenames with actual screenshot paths from your pr
 
 Follow these steps to run the project on your local machine:  
 
-### 1️⃣ Clone the Repository  
+1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/your-username/fashion-recommendation.git
 cd fashion-recommendation
