@@ -30,12 +30,12 @@ Follow these steps to run the project on your local machine:
 
 - pip install -r requirements.txt
 
-###3️⃣ Run the Application
+### 3️⃣ Run the Application
 
 - streamlit run app.py
 - The app will open in your web browser at http://localhost:8501.
 
-###📂 Project Structure
+### 📂 Project Structure
 
 - 📂 fashion-recommendation
 -  ┣ 📂 images              # Fashion images dataset & screenshots
