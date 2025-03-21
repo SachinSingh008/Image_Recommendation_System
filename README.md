@@ -50,6 +50,9 @@ Follow these steps to run the project on your local machine:
 - Feature Extraction: The app uses ResNet50 to extract visual features from uploaded images.
 - Similarity Matching: It finds the closest matching products using Nearest Neighbors (Euclidean distance).
 - Interactive UI: Users can select a recommended product to get continuous recommendations.
+
+### This Link may NOT work GitHub andStreamlit have storage limits,and my images folder is too big for deployment
+
 ### 🌐 View Live
 - 🔗 Live Demo [https://image-recommendation-system.streamlit.app/]
 
