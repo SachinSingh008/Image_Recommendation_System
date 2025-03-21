@@ -51,9 +51,9 @@ Follow these steps to run the project on your local machine:
 - Similarity Matching: It finds the closest matching products using Nearest Neighbors (Euclidean distance).
 - Interactive UI: Users can select a recommended product to get continuous recommendations.
 ### 🌐 View Live
-- 🔗 Live Demo (Add your deployed app link here)
+- 🔗 Live Demo [https://image-recommendation-system.streamlit.app/]
 
 ### 👨‍💻 Credits
-- Developed by: [Your Name]
+- Developed by: [Sachin Ajeetkumar Singh]
 - Tech Stack: Python, Streamlit, TensorFlow, Scikit-Learn
 - Dataset: [Fashion Product Dataset]
