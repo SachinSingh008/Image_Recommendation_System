@@ -1,9 +1,9 @@
 import numpy as np
 import pickle as pkl
 import tensorflow as tf
-from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.layers import GlobalMaxPool2D
+from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input # type: ignore
+from tensorflow.keras.preprocessing import image # type: ignore
+from tensorflow.keras.layers import GlobalMaxPool2D # type: ignore
 from sklearn.neighbors import NearestNeighbors
 import os
 from numpy.linalg import norm
