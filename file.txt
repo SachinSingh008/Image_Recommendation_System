@@ -1,0 +1,862 @@
+
+Click "Manage App" and consult the terminal for more details.
+
+If you still have questions, leave a message in our forums and we will get back to you ASAP.
+
+[     UTC     ] Logs for image-recommendation-system.streamlit.app/
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[19:08:58] 🚀 Starting up repository: 'image_recommendation_system', branch: 'main', main module: 'app.py'
+
+[19:08:58] 🐙 Cloning repository...
+
+[19:09:14] 🐙 Cloning into '/mount/src/image_recommendation_system'...
+
+[19:09:14] 🐙 Cloned repository!
+
+[19:09:14] 🐙 Pulling code changes from Github...
+
+[19:09:15] 📦 Processing dependencies...
+
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+
+Using uv pip install.
+
+Using Python 3.12.9 environment at /home/adminuser/venv
+
+  × No solution found when resolving dependencies:[2025-03-21 19:09:17.370904] 
+
+  ╰─▶ Because pywin32==309 has no wheels with a matching Python implementation
+
+      tag and you require pywin32==309, we can conclude that your requirements
+
+      are unsatisfiable.[2025-03-21 19:09:17.375511] 
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using uv pip install.
+
+Using Python 3.12.9 environment at /home/adminuser/venv[2025-03-21 19:09:17.540528] 
+
+Resolved 4 packages in 94ms
+
+Prepared 4 packages in 432ms
+
+Installed 4 packages in 25ms
+
+ + markdown-it-py==3.0.0
+
+ + mdurl==0.1.2
+
+ + pygments==2.19.1
+
+ + rich==13.9.4
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Using standard pip install.
+
+Collecting absl-py==2.1.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 1))
+
+  Downloading absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting altair==5.5.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 2))
+
+  Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+
+Collecting asttokens==3.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 3))
+
+  Downloading asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+
+Collecting astunparse==1.6.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 4))
+
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl.metadata (4.4 kB)
+
+Collecting attrs==25.2.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 5))
+
+  Downloading attrs-25.2.0-py3-none-any.whl.metadata (11 kB)
+
+Collecting blinker==1.9.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 6))
+
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+
+Collecting cachetools==5.5.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 7))
+
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+
+Collecting certifi==2025.1.31 (from -r /mount/src/image_recommendation_system/requirements.txt (line 8))
+
+  Downloading certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting charset-normalizer==3.4.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 9))
+
+  Downloading charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+
+Collecting click==8.1.8 (from -r /mount/src/image_recommendation_system/requirements.txt (line 10))
+
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting colorama==0.4.6 (from -r /mount/src/image_recommendation_system/requirements.txt (line 11))
+
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+
+Collecting comm==0.2.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 12))
+
+  Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+
+Collecting debugpy==1.8.13 (from -r /mount/src/image_recommendation_system/requirements.txt (line 13))
+
+  Downloading debugpy-1.8.13-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
+
+Collecting decorator==5.2.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 14))
+
+  Downloading decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+
+Collecting executing==2.2.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 15))
+
+  Downloading executing-2.2.0-py2.py3-none-any.whl.metadata (8.9 kB)
+
+Collecting flatbuffers==25.2.10 (from -r /mount/src/image_recommendation_system/requirements.txt (line 16))
+
+  Downloading flatbuffers-25.2.10-py2.py3-none-any.whl.metadata (875 bytes)
+
+Collecting gast==0.6.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 17))
+
+  Downloading gast-0.6.0-py3-none-any.whl.metadata (1.3 kB)
+
+Collecting gitdb==4.0.12 (from -r /mount/src/image_recommendation_system/requirements.txt (line 18))
+
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+
+Collecting GitPython==3.1.44 (from -r /mount/src/image_recommendation_system/requirements.txt (line 19))
+
+  Downloading GitPython-3.1.44-py3-none-any.whl.metadata (13 kB)
+
+Collecting google-pasta==0.2.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 20))
+
+  Downloading google_pasta-0.2.0-py3-none-any.whl.metadata (814 bytes)
+
+Collecting grpcio==1.71.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 21))
+
+  Downloading grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+
+Collecting h5py==3.13.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 22))
+
+  Downloading h5py-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+
+Collecting idna==3.10 (from -r /mount/src/image_recommendation_system/requirements.txt (line 23))
+
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+
+Collecting ipykernel==6.29.5 (from -r /mount/src/image_recommendation_system/requirements.txt (line 24))
+
+  Downloading ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
+
+Collecting ipython==9.0.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 25))
+
+  Downloading ipython-9.0.2-py3-none-any.whl.metadata (4.3 kB)
+
+Collecting ipython_pygments_lexers==1.1.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 26))
+
+  Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+
+Collecting jedi==0.19.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 27))
+
+  Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+
+Collecting Jinja2==3.1.6 (from -r /mount/src/image_recommendation_system/requirements.txt (line 28))
+
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+
+Collecting joblib==1.4.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 29))
+
+  Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+
+Collecting jsonschema==4.23.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 30))
+
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+
+Collecting jsonschema-specifications==2024.10.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 31))
+
+  Downloading jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata (3.0 kB)
+
+Collecting jupyter_client==8.6.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 32))
+
+  Downloading jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+
+Collecting jupyter_core==5.7.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 33))
+
+  Downloading jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+
+Collecting keras==3.9.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 34))
+
+  Downloading keras-3.9.0-py3-none-any.whl.metadata (6.1 kB)
+
+Collecting libclang==18.1.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 35))
+
+  Downloading libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl.metadata (5.2 kB)
+
+Collecting Markdown==3.7 (from -r /mount/src/image_recommendation_system/requirements.txt (line 36))
+
+  Downloading Markdown-3.7-py3-none-any.whl.metadata (7.0 kB)
+
+Collecting markdown-it-py==3.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 37))
+
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+
+Collecting MarkupSafe==3.0.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 38))
+
+  Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+
+Collecting matplotlib-inline==0.1.7 (from -r /mount/src/image_recommendation_system/requirements.txt (line 39))
+
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+
+Collecting mdurl==0.1.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 40))
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Collecting ml_dtypes==0.5.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 41))
+
+  Downloading ml_dtypes-0.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+
+Collecting namex==0.0.8 (from -r /mount/src/image_recommendation_system/requirements.txt (line 42))
+
+  Downloading namex-0.0.8-py3-none-any.whl.metadata (246 bytes)
+
+Collecting narwhals==1.30.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 43))
+
+  Downloading narwhals-1.30.0-py3-none-any.whl.metadata (11 kB)
+
+Collecting nest-asyncio==1.6.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 44))
+
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+
+Collecting numpy==2.1.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 45))
+
+  Downloading numpy-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 7.4 MB/s eta 0:00:00[2025-03-21 19:09:25.555073] 
+
+Collecting opt_einsum==3.4.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 46))
+
+  Downloading opt_einsum-3.4.0-py3-none-any.whl.metadata (6.3 kB)
+
+Collecting optree==0.14.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 47))
+
+  Downloading optree-0.14.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (49 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.1/49.1 kB 128.7 MB/s eta 0:00:00[2025-03-21 19:09:25.858619] 
+
+Collecting packaging==24.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 48))
+
+  Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+
+Collecting pandas==2.2.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 49))
+
+  Downloading pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 111.0 MB/s eta 0:00:00[2025-03-21 19:09:26.269447] 
+
+Collecting parso==0.8.4 (from -r /mount/src/image_recommendation_system/requirements.txt (line 50))
+
+  Downloading parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+
+Collecting pillow==11.1.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 51))
+
+  Downloading pillow-11.1.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+
+Collecting platformdirs==4.3.6 (from -r /mount/src/image_recommendation_system/requirements.txt (line 52))
+
+  Downloading platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+
+Collecting prompt_toolkit==3.0.50 (from -r /mount/src/image_recommendation_system/requirements.txt (line 53))
+
+  Downloading prompt_toolkit-3.0.50-py3-none-any.whl.metadata (6.6 kB)
+
+Collecting protobuf==5.29.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 54))
+
+  Downloading protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+
+Collecting psutil==7.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 55))
+
+  Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+
+Collecting pure_eval==0.2.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 56))
+
+  Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+
+Collecting pyarrow==19.0.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 57))
+
+  Downloading pyarrow-19.0.1-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+
+Collecting pydeck==0.9.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 58))
+
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+
+Collecting Pygments==2.19.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 59))
+
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting python-dateutil==2.9.0.post0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 60))
+
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+
+Collecting pytz==2025.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 61))
+
+  Downloading pytz-2025.1-py2.py3-none-any.whl.metadata (22 kB)
+
+ERROR: Ignored the following versions that require a different python version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11
+
+ERROR: Could not find a version that satisfies the requirement pywin32==309 (from versions: none)
+
+ERROR: No matching distribution found for pywin32==309
+
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+
+[notice] To update, run: pip install --upgrade pip
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using standard pip install.
+
+Collecting rich>=10.14.0
+
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 10.7 MB/s eta 0:00:00[2025-03-21 19:09:31.111919] 
+
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 116.5 MB/s eta 0:00:00[2025-03-21 19:09:31.127066] 
+
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 54.2 MB/s eta 0:00:00[2025-03-21 19:09:31.164683] 
+
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+
+  Attempting uninstall: pygments
+
+    Found existing installation: Pygments 2.19.1
+
+    Uninstalling Pygments-2.19.1:
+
+      Successfully uninstalled Pygments-2.19.1
+
+  Attempting uninstall: mdurl
+
+    Found existing installation: mdurl 0.1.2
+
+    Uninstalling mdurl-0.1.2:
+
+      Successfully uninstalled mdurl-0.1.2
+
+  Attempting uninstall: markdown-it-py
+
+    Found existing installation: markdown-it-py 3.0.0
+
+    Uninstalling markdown-it-py-3.0.0:
+
+      Successfully uninstalled markdown-it-py-3.0.0
+
+  Attempting uninstall: rich
+
+    Found existing installation: rich 13.9.4
+
+    Uninstalling rich-13.9.4:
+
+      Successfully uninstalled rich-13.9.4
+
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-13.9.4
+
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+
+[notice] To update, run: pip install --upgrade pip
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+[19:09:35] ❗️ installer returned a non-zero exit code
+
+[19:09:35] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
+
+[19:37:35] 🐙 Pulling code changes from Github...
+
+[19:37:36] 📦 Processing dependencies...
+
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+
+Using uv pip install.
+
+Using Python 3.12.9 environment at /home/adminuser/venv
+
+  × No solution found when resolving dependencies:
+
+  ╰─▶ Because tensorflow-io-gcs-filesystem==0.31.0 has no
+
+      wheels with a matching Python ABI tag and you require
+
+      tensorflow-io-gcs-filesystem==0.31.0, we can conclude that your
+
+      requirements are unsatisfiable.
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using uv pip install.
+
+Using Python 3.12.9 environment at /home/adminuser/venv
+
+Audited 1 package in 1ms
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+
+Using standard pip install.
+
+Collecting absl-py==2.1.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 1))
+
+  Downloading absl_py-2.1.0-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting altair==5.5.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 2))
+
+  Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+
+Collecting asttokens==3.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 3))
+
+  Downloading asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+
+Collecting astunparse==1.6.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 4))
+
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl.metadata (4.4 kB)
+
+Collecting attrs==25.2.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 5))
+
+  Downloading attrs-25.2.0-py3-none-any.whl.metadata (11 kB)
+
+Collecting blinker==1.9.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 6))
+
+  Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+
+Collecting cachetools==5.5.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 7))
+
+  Downloading cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+
+Collecting certifi==2025.1.31 (from -r /mount/src/image_recommendation_system/requirements.txt (line 8))
+
+  Downloading certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting charset-normalizer==3.4.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 9))
+
+  Downloading charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (35 kB)
+
+Collecting click==8.1.8 (from -r /mount/src/image_recommendation_system/requirements.txt (line 10))
+
+  Downloading click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+
+Collecting colorama==0.4.6 (from -r /mount/src/image_recommendation_system/requirements.txt (line 11))
+
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+
+Collecting comm==0.2.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 12))
+
+  Downloading comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+
+Collecting debugpy==1.8.13 (from -r /mount/src/image_recommendation_system/requirements.txt (line 13))
+
+  Downloading debugpy-1.8.13-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.3 kB)
+
+Collecting decorator==5.2.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 14))
+
+  Downloading decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+
+Collecting executing==2.2.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 15))
+
+  Downloading executing-2.2.0-py2.py3-none-any.whl.metadata (8.9 kB)
+
+Collecting flatbuffers==25.2.10 (from -r /mount/src/image_recommendation_system/requirements.txt (line 16))
+
+  Downloading flatbuffers-25.2.10-py2.py3-none-any.whl.metadata (875 bytes)
+
+Collecting gast==0.6.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 17))
+
+  Downloading gast-0.6.0-py3-none-any.whl.metadata (1.3 kB)
+
+Collecting gitdb==4.0.12 (from -r /mount/src/image_recommendation_system/requirements.txt (line 18))
+
+  Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+
+Collecting GitPython==3.1.44 (from -r /mount/src/image_recommendation_system/requirements.txt (line 19))
+
+  Downloading GitPython-3.1.44-py3-none-any.whl.metadata (13 kB)
+
+Collecting google-pasta==0.2.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 20))
+
+  Downloading google_pasta-0.2.0-py3-none-any.whl.metadata (814 bytes)
+
+Collecting grpcio==1.71.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 21))
+
+  Downloading grpcio-1.71.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.8 kB)
+
+Collecting h5py==3.13.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 22))
+
+  Downloading h5py-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.5 kB)
+
+Collecting idna==3.10 (from -r /mount/src/image_recommendation_system/requirements.txt (line 23))
+
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+
+Collecting ipykernel==6.29.5 (from -r /mount/src/image_recommendation_system/requirements.txt (line 24))
+
+  Downloading ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
+
+Collecting ipython==9.0.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 25))
+
+  Downloading ipython-9.0.2-py3-none-any.whl.metadata (4.3 kB)
+
+Collecting ipython_pygments_lexers==1.1.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 26))
+
+  Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+
+Collecting jedi==0.19.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 27))
+
+  Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+
+Collecting Jinja2==3.1.6 (from -r /mount/src/image_recommendation_system/requirements.txt (line 28))
+
+  Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+
+Collecting joblib==1.4.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 29))
+
+  Downloading joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+
+Collecting jsonschema==4.23.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 30))
+
+  Downloading jsonschema-4.23.0-py3-none-any.whl.metadata (7.9 kB)
+
+Collecting jsonschema-specifications==2024.10.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 31))
+
+  Downloading jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata (3.0 kB)
+
+Collecting jupyter_client==8.6.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 32))
+
+  Downloading jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+
+Collecting jupyter_core==5.7.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 33))
+
+  Downloading jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+
+Collecting keras==3.9.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 34))
+
+  Downloading keras-3.9.0-py3-none-any.whl.metadata (6.1 kB)
+
+Collecting libclang==18.1.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 35))
+
+  Downloading libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl.metadata (5.2 kB)
+
+Collecting Markdown==3.7 (from -r /mount/src/image_recommendation_system/requirements.txt (line 36))
+
+  Downloading Markdown-3.7-py3-none-any.whl.metadata (7.0 kB)
+
+Collecting markdown-it-py==3.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 37))
+
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+
+Collecting MarkupSafe==3.0.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 38))
+
+  Downloading MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.0 kB)
+
+Collecting matplotlib-inline==0.1.7 (from -r /mount/src/image_recommendation_system/requirements.txt (line 39))
+
+  Downloading matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+
+Collecting mdurl==0.1.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 40))
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Collecting ml_dtypes==0.5.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 41))
+
+  Downloading ml_dtypes-0.5.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (21 kB)
+
+Collecting namex==0.0.8 (from -r /mount/src/image_recommendation_system/requirements.txt (line 42))
+
+  Downloading namex-0.0.8-py3-none-any.whl.metadata (246 bytes)
+
+Collecting narwhals==1.30.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 43))
+
+  Downloading narwhals-1.30.0-py3-none-any.whl.metadata (11 kB)
+
+Collecting nest-asyncio==1.6.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 44))
+
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+
+Collecting numpy==2.1.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 45))
+
+  Downloading numpy-2.1.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (62 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 125.4 MB/s eta 0:00:00[2025-03-21 19:37:43.155087] 
+
+Collecting opt_einsum==3.4.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 46))
+
+  Downloading opt_einsum-3.4.0-py3-none-any.whl.metadata (6.3 kB)
+
+Collecting optree==0.14.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 47))
+
+  Downloading optree-0.14.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (49 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.1/49.1 kB 117.7 MB/s eta 0:00:00[2025-03-21 19:37:43.389549] 
+
+Collecting packaging==24.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 48))
+
+  Downloading packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+
+Collecting pandas==2.2.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 49))
+
+  Downloading pandas-2.2.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (89 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.9/89.9 kB 136.6 MB/s eta 0:00:00[2025-03-21 19:37:43.717440] 
+
+Collecting parso==0.8.4 (from -r /mount/src/image_recommendation_system/requirements.txt (line 50))
+
+  Downloading parso-0.8.4-py2.py3-none-any.whl.metadata (7.7 kB)
+
+Collecting pillow==11.1.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 51))
+
+  Downloading pillow-11.1.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+
+Collecting platformdirs==4.3.6 (from -r /mount/src/image_recommendation_system/requirements.txt (line 52))
+
+  Downloading platformdirs-4.3.6-py3-none-any.whl.metadata (11 kB)
+
+Collecting prompt_toolkit==3.0.50 (from -r /mount/src/image_recommendation_system/requirements.txt (line 53))
+
+  Downloading prompt_toolkit-3.0.50-py3-none-any.whl.metadata (6.6 kB)
+
+Collecting protobuf==5.29.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 54))
+
+  Downloading protobuf-5.29.3-cp38-abi3-manylinux2014_x86_64.whl.metadata (592 bytes)
+
+Collecting psutil==7.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 55))
+
+  Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+
+Collecting pure_eval==0.2.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 56))
+
+  Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+
+Collecting pyarrow==19.0.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 57))
+
+  Downloading pyarrow-19.0.1-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+
+Collecting pydeck==0.9.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 58))
+
+  Downloading pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+
+Collecting Pygments==2.19.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 59))
+
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting python-dateutil==2.9.0.post0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 60))
+
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+
+Collecting pytz==2025.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 61))
+
+  Downloading pytz-2025.1-py2.py3-none-any.whl.metadata (22 kB)
+
+Collecting pyzmq==26.3.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 62))
+
+  Downloading pyzmq-26.3.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (6.2 kB)
+
+Collecting referencing==0.36.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 63))
+
+  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+
+Collecting requests==2.32.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 64))
+
+  Downloading requests-2.32.3-py3-none-any.whl.metadata (4.6 kB)
+
+Collecting rich==13.9.4 (from -r /mount/src/image_recommendation_system/requirements.txt (line 65))
+
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+
+Collecting rpds-py==0.23.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 66))
+
+  Downloading rpds_py-0.23.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+
+Collecting scikit-learn==1.6.1 (from -r /mount/src/image_recommendation_system/requirements.txt (line 67))
+
+  Downloading scikit_learn-1.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
+
+Collecting scipy==1.15.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 68))
+
+  Downloading scipy-1.15.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.0/62.0 kB 119.4 MB/s eta 0:00:00[2025-03-21 19:37:46.917366] 
+
+Collecting six==1.17.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 69))
+
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+
+Collecting smmap==5.0.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 70))
+
+  Downloading smmap-5.0.2-py3-none-any.whl.metadata (4.3 kB)
+
+Collecting stack-data==0.6.3 (from -r /mount/src/image_recommendation_system/requirements.txt (line 71))
+
+  Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+
+Collecting streamlit==1.43.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 72))
+
+  Downloading streamlit-1.43.2-py2.py3-none-any.whl.metadata (8.9 kB)
+
+Collecting tenacity==9.0.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 73))
+
+  Downloading tenacity-9.0.0-py3-none-any.whl.metadata (1.2 kB)
+
+Collecting tensorboard==2.19.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 74))
+
+  Downloading tensorboard-2.19.0-py3-none-any.whl.metadata (1.8 kB)
+
+Collecting tensorboard-data-server==0.7.2 (from -r /mount/src/image_recommendation_system/requirements.txt (line 75))
+
+  Downloading tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl.metadata (1.1 kB)
+
+Collecting tensorflow==2.19.0 (from -r /mount/src/image_recommendation_system/requirements.txt (line 76))
+
+  Downloading tensorflow-2.19.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+
+ERROR: Ignored the following versions that require a different python version: 0.37.0 Requires-Python <3.12,>=3.7; 0.55.2 Requires-Python <3.5; 1.10.0 Requires-Python <3.12,>=3.8; 1.10.0rc1 Requires-Python <3.12,>=3.8; 1.10.0rc2 Requires-Python <3.12,>=3.8; 1.10.1 Requires-Python <3.12,>=3.8; 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11; 1.6.2 Requires-Python >=3.7,<3.10; 1.6.3 Requires-Python >=3.7,<3.10; 1.7.0 Requires-Python >=3.7,<3.10; 1.7.1 Requires-Python >=3.7,<3.10; 1.7.2 Requires-Python >=3.7,<3.11; 1.7.3 Requires-Python >=3.7,<3.11; 1.8.0 Requires-Python >=3.8,<3.11; 1.8.0rc1 Requires-Python >=3.8,<3.11; 1.8.0rc2 Requires-Python >=3.8,<3.11; 1.8.0rc3 Requires-Python >=3.8,<3.11; 1.8.0rc4 Requires-Python >=3.8,<3.11; 1.8.1 Requires-Python >=3.8,<3.11; 1.9.0 Requires-Python >=3.8,<3.12; 1.9.0rc1 Requires-Python >=3.8,<3.12; 1.9.0rc2 Requires-Python >=3.8,<3.12; 1.9.0rc3 Requires-Python >=3.8,<3.12; 1.9.1 Requires-Python >=3.8,<3.12
+
+ERROR: Could not find a version that satisfies the requirement tensorflow-io-gcs-filesystem==0.31.0 (from versions: 0.37.1)
+
+ERROR: No matching distribution found for tensorflow-io-gcs-filesystem==0.31.0
+
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+
+[notice] To update, run: pip install --upgrade pip
+
+Checking if Streamlit is installed
+
+Installing rich for an improved exception logging
+
+Using standard pip install.
+
+Collecting rich>=10.14.0
+
+  Downloading rich-13.9.4-py3-none-any.whl.metadata (18 kB)
+
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+
+  Downloading pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+
+Downloading rich-13.9.4-py3-none-any.whl (242 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.4/242.4 kB 12.0 MB/s eta 0:00:00[2025-03-21 19:37:49.925687] 
+
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 125.3 MB/s eta 0:00:00[2025-03-21 19:37:49.940422] 
+
+Downloading pygments-2.19.1-py3-none-any.whl (1.2 MB)
+
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 67.6 MB/s eta 0:00:00[2025-03-21 19:37:49.972456] 
+
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+
+  Attempting uninstall: pygments
+
+    Found existing installation: Pygments 2.19.1
+
+    Uninstalling Pygments-2.19.1:
+
+      Successfully uninstalled Pygments-2.19.1
+
+  Attempting uninstall: mdurl
+
+    Found existing installation: mdurl 0.1.2
+
+    Uninstalling mdurl-0.1.2:
+
+      Successfully uninstalled mdurl-0.1.2
+
+  Attempting uninstall: markdown-it-py
+
+    Found existing installation: markdown-it-py 3.0.0
+
+    Uninstalling markdown-it-py-3.0.0:
+
+      Successfully uninstalled markdown-it-py-3.0.0
+
+  Attempting uninstall: rich
+
+    Found existing installation: rich 13.9.4
+
+    Uninstalling rich-13.9.4:
+
+      Successfully uninstalled rich-13.9.4
+
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.1 rich-13.9.4
+
+
+[notice] A new release of pip is available: 24.0 -> 25.0.1
+
+[notice] To update, run: pip install --upgrade pip
+
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+[19:37:52] ❗️ installer returned a non-zero exit code
