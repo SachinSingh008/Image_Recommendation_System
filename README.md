@@ -23,7 +23,9 @@ Follow these steps to run the project on your local machine:
 
 - git clone https://github.com/SachinSingh008/Image_Recommendation_System.git
 - cd fashion-recommendation
+
 ### 2️⃣ Install Dependencies
+
 - Ensure you have Python installed (3.8+ recommended). Then, install required libraries:
 
 - pip install -r requirements.txt
@@ -47,13 +49,19 @@ Follow these steps to run the project on your local machine:
 
 
 ### 🎯 How It Works
+
 - Feature Extraction: The app uses ResNet50 to extract visual features from uploaded images.
 - Similarity Matching: It finds the closest matching products using Nearest Neighbors (Euclidean distance).
 - Interactive UI: Users can select a recommended product to get continuous recommendations.
+
+### This Link may NOT work GitHub andStreamlit have storage limits,and my images folder is too big for deployment
+
 ### 🌐 View Live
-- 🔗 Live Demo (Add your deployed app link here)
+
+- 🔗 Live Demo [https://image-recommendation-system.streamlit.app/]
 
 ### 👨‍💻 Credits
-- Developed by: [Your Name]
+
+- Developed by: [Sachin Ajeetkumar Singh]
 - Tech Stack: Python, Streamlit, TensorFlow, Scikit-Learn
 - Dataset: [Fashion Product Dataset]
